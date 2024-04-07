@@ -2,6 +2,12 @@
 
 Данный микросервис является единой точкой входа в приложение.
 
+В текущий момент CORS-политика отключена перезагрузкой браузера со следующими флагами:
+
+```text
+open /Applications/Google\ Chrome.app --args --user-data-dir="/var/tmp/chrome-dev-disabled-security" --disable-web-security --disable-site-isolation-trials
+```
+
 ## Pet-Helper Service
 
 Приложение-помощник по уходу за домашними животными
