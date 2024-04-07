@@ -61,3 +61,5 @@ open /Applications/Google\ Chrome.app --args --user-data-dir="/var/tmp/chrome-de
 
 - [support-service-front-end](https://github.com/vitmvit/support-service-front-end) (проект фронта для пользователей
   ADMIN и SUPPORT)
+- [pet-helper-service-front-end](https://github.com/vitmvit/pet-helper-service-front-end) (проект фронта для
+  пользователей ГЫУК)
