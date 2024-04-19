@@ -88,6 +88,26 @@ public class GatewayConfig {
                 .route("pet-helper-message-service", r -> r.path("/api/v1/chats/**")
                         .and().method("DELETE")
                         .uri("http://localhost:8084"))
+
+                // pet-helper-service
+                .route("pet-helper-service", r -> r.path("/api/v1/records")
+                        .and().method("GET")
+                        .uri("http://localhost:8085"))
+                .route("pet-helper-service", r -> r.path("/api/v1/records/**")
+                        .and().method("GET")
+                        .uri("http://localhost:8085"))
+                .route("pet-helper-service", r -> r.path("/api/v1/records")
+                        .and().method("POST")
+                        .uri("http://localhost:8085"))
+                .route("pet-helper-service", r -> r.path("/api/v1/records/**")
+                        .and().method("POST")
+                        .uri("http://localhost:8085"))
+                .route("pet-helper-service", r -> r.path("/api/v1/records/**")
+                        .and().method("PUT")
+                        .uri("http://localhost:8085"))
+                .route("pet-helper-service", r -> r.path("/api/v1/records/**")
+                        .and().method("DELETE")
+                        .uri("http://localhost:8085"))
                 .build();
     }
 

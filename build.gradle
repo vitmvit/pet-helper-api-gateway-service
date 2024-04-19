@@ -14,27 +14,14 @@ repositories {
 }
 
 dependencies {
-    implementation "by.vitikova.discovery:dto-lib:1.0"
+    implementation "by.vitikova.discovery:pet-helper-dto-lib:1.0"
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-security'
-//    implementation 'org.springframework.cloud:spring-cloud-config-server'
-//    implementation "org.springframework.cloud:spring-cloud-config-client"
-//    implementation 'org.springframework.cloud:spring-cloud-starter-config'
-//    implementation 'org.springframework.boot:spring-boot-starter'
-//    implementation 'org.springframework.cloud:spring-cloud-starter-bootstrap'
-//    implementation "org.springframework.cloud:spring-cloud-starter-openfeign:4.1.0"
-//    implementation "org.springframework.boot:spring-boot-starter-validation"
-//    implementation "org.springframework.cloud:spring-cloud-starter-openfeign"
-//    implementation "org.springdoc:springdoc-openapi-starter-webmvc-ui:2.3.0"
-//    implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
     implementation 'org.springframework.data:spring-data-commons:3.2.1'
     implementation 'org.springframework.cloud:spring-cloud-starter-gateway:4.1.1'
     implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:4.1.0'
     implementation 'org.springframework.cloud:spring-cloud-starter-bootstrap:4.1.0'
     implementation 'org.springframework.cloud:spring-cloud-starter-config:4.1.0'
-//    implementation 'org.springframework.cloud:spring-cloud-config-client'
-//    implementation 'org.springframework.cloud:spring-cloud-config-server:4.1.0'
-//    implementation 'org.springframework.boot:spring-boot-starter'
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
