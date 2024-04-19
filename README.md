@@ -26,6 +26,8 @@ open /Applications/Google\ Chrome.app --args --user-data-dir="/var/tmp/chrome-de
 #### front-end:
 
 - Angular
+- Ionic
+- TypeScript
 
 ### Составляющие:
 
@@ -38,6 +40,10 @@ open /Applications/Google\ Chrome.app --args --user-data-dir="/var/tmp/chrome-de
   сообщениями)
 - [pet-helper-auth-service](https://github.com/vitmvit/pet-helper-auth-service) (микросервис
   авторизации/аутентификации/проверки токена)
+- [pet-helper-image-service](https://github.com/vitmvit/pet-helper-image-service) (микросервис обработки
+  изображений/аватаров)
+- [pet-helper-service](https://github.com/vitmvit/pet-helper-service) (микросервис для работы с мобильной частью
+  приложения)
 
 
 - [pet-helper-api-gateway-service](https://github.com/vitmvit/pet-helper-api-gateway-service) (единая точка входа)
