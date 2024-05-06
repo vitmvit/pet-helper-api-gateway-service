@@ -85,7 +85,7 @@ public class GatewayConfig {
                 // auth-service
                 .route("pet-helper-auth-service", r -> r.path("/api/v1/auth/signUp")
                         .and().method("POST")
-                        .and().readBody(JwtDto.class, s -> true)
+                        .and().readBody(UserDto.class, s -> true)
                         .uri("http://localhost:8082"))
                 .route("pet-helper-auth-service", r -> r.path("/api/v1/auth/signIn")
                         .and().method("POST")

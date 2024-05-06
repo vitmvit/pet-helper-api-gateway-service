@@ -22,6 +22,7 @@ open /Applications/Google\ Chrome.app --args --user-data-dir="/var/tmp/chrome-de
 - Lombok
 - PostgreSQL
 - MongoDB
+- Redis (необходимо установить и запустить)
 
 #### front-end:
 
@@ -65,7 +66,8 @@ open /Applications/Google\ Chrome.app --args --user-data-dir="/var/tmp/chrome-de
 
 #### front-end:
 
+- [vet-service-front-end](https://github.com/vitmvit/vet-service-front-end) (проект фронта для пользователей VET)
 - [support-service-front-end](https://github.com/vitmvit/support-service-front-end) (проект фронта для пользователей
   ADMIN и SUPPORT)
 - [pet-helper-service-front-end](https://github.com/vitmvit/pet-helper-service-front-end) (проект фронта для
-  пользователей ГЫУК)
+  пользователей USER)
