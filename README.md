@@ -2,15 +2,9 @@
 
 Данный микросервис является единой точкой входа в приложение.
 
-В текущий момент CORS-политика отключена перезагрузкой браузера со следующими флагами:
-
-```text
-open /Applications/Google\ Chrome.app --args --user-data-dir="/var/tmp/chrome-dev-disabled-security" --disable-web-security --disable-site-isolation-trials
-```
-
 ## Pet-Helper Service
 
-Приложение-помощник по уходу за домашними животными
+Приложение-помощник по уходу за домашними животными.
 
 ### Технологии:
 
@@ -22,6 +16,7 @@ open /Applications/Google\ Chrome.app --args --user-data-dir="/var/tmp/chrome-de
 - Lombok
 - PostgreSQL
 - MongoDB
+- Redis (необходимо установить и запустить)
 
 #### front-end:
 
@@ -42,6 +37,8 @@ open /Applications/Google\ Chrome.app --args --user-data-dir="/var/tmp/chrome-de
   авторизации/аутентификации/проверки токена)
 - [pet-helper-image-service](https://github.com/vitmvit/pet-helper-image-service) (микросервис обработки
   изображений/аватаров)
+- [pet-helper-editor-service](https://github.com/vitmvit/pet-helper-editor-service) (микросервис для работы со
+  справочными таблицами)
 - [pet-helper-service](https://github.com/vitmvit/pet-helper-service) (микросервис для работы с мобильной частью
   приложения)
 
@@ -65,7 +62,8 @@ open /Applications/Google\ Chrome.app --args --user-data-dir="/var/tmp/chrome-de
 
 #### front-end:
 
+- [vet-service-front-end](https://github.com/vitmvit/vet-service-front-end) (проект фронта для пользователей VET)
 - [support-service-front-end](https://github.com/vitmvit/support-service-front-end) (проект фронта для пользователей
   ADMIN и SUPPORT)
 - [pet-helper-service-front-end](https://github.com/vitmvit/pet-helper-service-front-end) (проект фронта для
-  пользователей ГЫУК)
+  пользователей USER)
